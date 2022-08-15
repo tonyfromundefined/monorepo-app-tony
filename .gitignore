@@ -12,6 +12,4 @@
 
 .DS_Store
 lerna-debug.log
-
-# ultra-runner
 .ultra.cache.json

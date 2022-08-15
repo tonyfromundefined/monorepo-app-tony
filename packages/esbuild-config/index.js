@@ -1,6 +1,4 @@
-const config = ({
-  entryPoints = ["./src/index.ts"],
-}) => ({
+const config = ({ entryPoints = ["./src/index.ts"] }) => ({
   entryPoints,
   outdir: "dist",
   target: "es2015",

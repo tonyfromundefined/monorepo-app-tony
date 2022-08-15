@@ -10,16 +10,19 @@
     "clean": "ultra -r clean",
     "dev": "ultra -r dev",
     "format": "eslint --fix --ext .js,.json,.ts,.tsx --ignore-path .gitignore .",
+    "postinstall": "husky install",
     "lerna:publish": "yarn build && lerna publish",
     "lerna:publish:all": "yarn build && lerna publish --force-publish",
     "lerna:publish:canary": "yarn build && lerna publish --canary",
-    "precommit": "lint-staged",
     "test": "yarn build && ultra -r test",
-    "version": "yarn install && git stage yarn.lock",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "version": "yarn install && git stage yarn.lock"
   },
   "lint-staged": {
-    "*": "eslint --fix --ext .js,.json,.ts,.tsx --ignore-path .gitignore"
+    "*.js": "eslint --fix --ignore-path .gitignore",
+    "*.json": "eslint --fix --ignore-path .gitignore",
+    "*.ts": "eslint --fix --ignore-path .gitignore",
+    "*.tsx": "eslint --fix --ignore-path .gitignore"
   },
   "devDependencies": {
     "@types/jest": "^28.1.6",
@@ -37,9 +40,9 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "husky": "^8.0.1",
+    "husky": ">=7",
     "lerna": "^4.0.0",
-    "lint-staged": "^13.0.3",
+    "lint-staged": ">=10",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
     "ultra-runner": "^3.10.5"

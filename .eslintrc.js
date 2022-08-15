@@ -34,5 +34,5 @@ module.exports = {
       },
     ],
   },
-  ignorePatterns: ["**/__generated__/**/*", "**/lib/**/*", "**/dist/**/*"],
+  ignorePatterns: ["**/dist/**/*", ".yarn/**/*", ".pnp.cjs", ".pnp.loader.mjs"],
 };

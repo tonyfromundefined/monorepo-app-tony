@@ -930,9 +930,9 @@ __metadata:
     eslint-plugin-react: ^7.30.1
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-simple-import-sort: ^7.0.0
-    husky: ^8.0.1
+    husky: ">=7"
     lerna: ^4.0.0
-    lint-staged: ^13.0.3
+    lint-staged: ">=10"
     prettier: ^2.7.1
     typescript: ^4.7.4
     ultra-runner: ^3.10.5
@@ -3792,7 +3792,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^8.0.1":
+"husky@npm:>=7":
   version: 8.0.1
   resolution: "husky@npm:8.0.1"
   bin:
@@ -4527,7 +4527,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^13.0.3":
+"lint-staged@npm:>=10":
   version: 13.0.3
   resolution: "lint-staged@npm:13.0.3"
   dependencies:

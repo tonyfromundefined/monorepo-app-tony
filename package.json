@@ -15,8 +15,8 @@
     "lerna:publish:canary": "yarn build && lerna publish --canary",
     "precommit": "lint-staged",
     "test": "yarn build && ultra -r test",
-    "typecheck": "tsc --noEmit",
-    "version": "yarn install && git stage yarn.lock"
+"version": "yarn install && git stage yarn.lock",
+    "typecheck": "tsc --noEmit"
   },
   "lint-staged": {
     "*": "eslint --fix --ext .js,.json,.ts,.tsx --ignore-path .gitignore"

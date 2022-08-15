@@ -1,0 +1,41 @@
+{
+  "name": "@monorepo-starter/monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "ultra -r build",
+    "build:dts": "ultra -r --build build:dts",
+    "clean": "ultra -r clean",
+    "dev": "ultra -r dev",
+    "format": "eslint . --fix --ext .ts,.tsx --ignore-path .gitignore && prettier -w .",
+    "lerna:publish": "yarn build && lerna publish",
+    "lerna:publish:all": "yarn build && lerna publish --force-publish",
+    "lerna:publish:canary": "yarn build && lerna publish --canary",
+    "test": "yarn build && ultra -r test",
+    "typecheck": "tsc --noEmit",
+    "version": "yarn install && git stage yarn.lock"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.7.3",
+    "@types/react": "^18.0.17",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
+    "ultra-runner": "^3.10.5"
+  },
+  "packageManager": "yarn@3.2.2"
+}

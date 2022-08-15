@@ -17,6 +17,9 @@
     "typecheck": "tsc --noEmit",
     "version": "yarn install && git stage yarn.lock"
   },
+  "lint-staged": {
+    "*": "eslint --fix --ext .js,.json,.ts,.tsx --ignore-path .gitignore"
+  },
   "devDependencies": {
     "@types/jest": "^28.1.6",
     "@types/node": "^18.7.3",
@@ -34,6 +37,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "lerna": "^4.0.0",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
     "ultra-runner": "^3.10.5"

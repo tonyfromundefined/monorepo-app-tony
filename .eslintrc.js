@@ -1,7 +1,10 @@
 module.exports = {
   root: true,
   parser: "@typescript-eslint/parser",
-  extends: ["airbnb", "prettier"],
+  extends: ["react-app", "react-app/jest", "airbnb-typescript", "prettier"],
+  parserOptions: {
+    project: "./tsconfig.json",
+  },
   plugins: [
     "json-format",
     "simple-import-sort",
@@ -9,6 +12,7 @@ module.exports = {
     "prettier",
   ],
   rules: {
+    "import/no-extraneous-dependencies": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
     "prettier/prettier": [
@@ -34,5 +38,11 @@ module.exports = {
       },
     ],
   },
-  ignorePatterns: ["**/dist/**/*", ".yarn/**/*", ".pnp.cjs", ".pnp.loader.mjs"],
+  ignorePatterns: [
+    "**/dist/**/*",
+    ".yarn/**/*",
+    ".pnp.cjs",
+    ".pnp.loader.mjs",
+    ".eslintrc.js",
+  ],
 };

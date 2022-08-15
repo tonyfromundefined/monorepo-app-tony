@@ -13,6 +13,7 @@
     "lerna:publish": "yarn build && lerna publish",
     "lerna:publish:all": "yarn build && lerna publish --force-publish",
     "lerna:publish:canary": "yarn build && lerna publish --canary",
+    "precommit": "lint-staged",
     "test": "yarn build && ultra -r test",
     "typecheck": "tsc --noEmit",
     "version": "yarn install && git stage yarn.lock"

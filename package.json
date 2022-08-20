@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-starter/monorepo",
+  "name": "@monorepo-app-tony/monorepo",
   "private": true,
   "workspaces": [
     "packages/*"

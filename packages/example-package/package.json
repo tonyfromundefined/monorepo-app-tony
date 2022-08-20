@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-starter/example-package",
+  "name": "@monorepo-app-tony/example-package",
   "version": "0.0.0",
   "exports": {
     ".": {
@@ -23,7 +23,7 @@
     "dev": "yarn build:js --watch && yarn build:dts --watch"
   },
   "devDependencies": {
-    "@monorepo-starter/esbuild-config": "^0.0.0",
+    "@monorepo-app-tony/esbuild-config": "^0.0.0",
     "esbuild": "^0.14.51",
     "rimraf": "^3.0.2",
     "typescript": "^4.7.4"

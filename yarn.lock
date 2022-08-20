@@ -2368,26 +2368,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monorepo-starter/esbuild-config@^0.0.0, @monorepo-starter/esbuild-config@workspace:packages/esbuild-config":
+"@monorepo-app-tony/esbuild-config@^0.0.0, @monorepo-app-tony/esbuild-config@workspace:packages/esbuild-config":
   version: 0.0.0-use.local
-  resolution: "@monorepo-starter/esbuild-config@workspace:packages/esbuild-config"
+  resolution: "@monorepo-app-tony/esbuild-config@workspace:packages/esbuild-config"
   languageName: unknown
   linkType: soft
 
-"@monorepo-starter/example-package@workspace:packages/example-package":
+"@monorepo-app-tony/example-package@workspace:packages/example-package":
   version: 0.0.0-use.local
-  resolution: "@monorepo-starter/example-package@workspace:packages/example-package"
+  resolution: "@monorepo-app-tony/example-package@workspace:packages/example-package"
   dependencies:
-    "@monorepo-starter/esbuild-config": ^0.0.0
+    "@monorepo-app-tony/esbuild-config": ^0.0.0
     esbuild: ^0.14.51
     rimraf: ^3.0.2
     typescript: ^4.7.4
   languageName: unknown
   linkType: soft
 
-"@monorepo-starter/monorepo@workspace:.":
+"@monorepo-app-tony/monorepo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@monorepo-starter/monorepo@workspace:."
+  resolution: "@monorepo-app-tony/monorepo@workspace:."
   dependencies:
     "@types/jest": ^28.1.6
     "@types/node": ^18.7.3

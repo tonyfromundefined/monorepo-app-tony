@@ -1,5 +1,5 @@
 const { build } = require("esbuild");
-const config = require("@monorepo-starter/esbuild-config");
+const config = require("@monorepo-app-tony/esbuild-config");
 const pkg = require("./package.json");
 
 const watch = process.argv.includes("--watch");

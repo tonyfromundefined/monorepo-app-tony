@@ -15,6 +15,7 @@
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "json",
+    "json"
   ],
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
 }

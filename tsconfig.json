@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "ESNext",
     "jsx": "react",
-    "module": "commonjs",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

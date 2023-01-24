@@ -8,9 +8,6 @@ $ yarn
 
 # Build all packages
 $ yarn build
-
-# Build all packages using --watch
-$ yarn dev
 ```
 
 ## Using

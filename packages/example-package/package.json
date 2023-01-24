@@ -20,7 +20,6 @@
     "clean": "nanobundle clean"
   },
   "devDependencies": {
-    "esbuild": "^0.17.4",
     "nanobundle": "^1.3.6",
     "rimraf": "^4.1.1",
     "typescript": "^4.9.4"

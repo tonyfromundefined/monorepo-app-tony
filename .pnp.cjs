@@ -3813,7 +3813,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/example-package/",\
           "packageDependencies": [\
             ["@monorepo-app-tony/example-package", "workspace:packages/example-package"],\
-            ["esbuild", "npm:0.17.4"],\
             ["nanobundle", "virtual:0da768424e0ad82f29b68a1bcb5fd4c576e591dccfa4f9e7234d386af4731d68fcb04e0a4961f5508a5c9d5d649fdf2d473dcc8c54dd2e9864e7b6ec6f90ec19#npm:1.3.6"],\
             ["rimraf", "npm:4.1.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=f456af"]\

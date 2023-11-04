@@ -16,5 +16,5 @@ $ yarn build
 - Ultra Runner
 - Lerna 4 (for Versioning & Publishing)
 - ESBuild
-- ESLint, Prettier, Lint Staged, Husky
+- ESLint, Prettier
 - TypeScript

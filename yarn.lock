@@ -2554,26 +2554,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monorepo-app-tony/eslint-config@workspace:^, @monorepo-app-tony/eslint-config@workspace:packages/eslint-config":
-  version: 0.0.0-use.local
-  resolution: "@monorepo-app-tony/eslint-config@workspace:packages/eslint-config"
-  dependencies:
-    "@types/react": "npm:^18.2.34"
-    "@typescript-eslint/eslint-plugin": "npm:^6.9.1"
-    "@typescript-eslint/parser": "npm:^6.9.1"
-    eslint: "npm:^8.53.0"
-    eslint-config-prettier: "npm:^9.0.0"
-    eslint-config-react-app: "npm:^7.0.1"
-    eslint-define-config: "npm:^1.24.1"
-    eslint-plugin-json-format: "npm:^2.0.1"
-    eslint-plugin-perfectionist: "npm:^2.2.0"
-    eslint-plugin-prettier: "npm:^5.0.1"
-    eslint-plugin-simple-import-sort: "npm:^10.0.0"
-    prettier: "npm:^3.0.3"
-    react: "npm:^18.2.0"
-  languageName: unknown
-  linkType: soft
-
 "@monorepo-app-tony/example-package@workspace:packages/example-package":
   version: 0.0.0-use.local
   resolution: "@monorepo-app-tony/example-package@workspace:packages/example-package"
@@ -2588,11 +2568,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@monorepo-app-tony/monorepo@workspace:."
   dependencies:
-    "@monorepo-app-tony/eslint-config": "workspace:^"
     "@types/node": "npm:^20.8.10"
     "@types/react": "npm:^18.2.34"
     concurrently: "npm:^8.2.2"
     eslint: "npm:^8.53.0"
+    eslint-config-tonyfromundefined: "npm:^0.3.0"
     eslint-define-config: "npm:^1.24.1"
     lerna: "npm:4.0.0"
     react: "npm:^18.2.0"
@@ -5019,6 +4999,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-tonyfromundefined@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "eslint-config-tonyfromundefined@npm:0.3.0"
+  dependencies:
+    "@types/react": "npm:^18.2.34"
+    "@typescript-eslint/eslint-plugin": "npm:^6.9.1"
+    "@typescript-eslint/parser": "npm:^6.9.1"
+    eslint: "npm:^8.53.0"
+    eslint-config-prettier: "npm:^9.0.0"
+    eslint-config-react-app: "npm:^7.0.1"
+    eslint-define-config: "npm:^1.24.1"
+    eslint-plugin-json-format: "npm:^2.0.1"
+    eslint-plugin-perfectionist: "npm:^2.2.0"
+    eslint-plugin-prettier: "npm:^5.0.1"
+    prettier: "npm:^3.0.3"
+    react: "npm:^18.2.0"
+    typescript: "npm:^5.2.2"
+  checksum: 80de9f1fc10a4e3598aafd2e6266dbf72f9d126740d65112b5791508b03b3a0e9504e5c7abc92e42f3344a1caa4bc87514d330a9419ee6cdd2e743b4df1df697
+  languageName: node
+  linkType: hard
+
 "eslint-define-config@npm:^1.24.1":
   version: 1.24.1
   resolution: "eslint-define-config@npm:1.24.1"
@@ -5225,15 +5226,6 @@ __metadata:
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
   checksum: 7367d58a454e6e3d09f7b487a59dd5ac2a56b6efbd82d6717522c428b8b79e4e5c91b789ac4c65e257b3f0a810fbe8f4b298ad907f9f0bc02b580a91921f9f9c
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-simple-import-sort@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "eslint-plugin-simple-import-sort@npm:10.0.0"
-  peerDependencies:
-    eslint: ">=5.0.0"
-  checksum: 462187d3c137ba0986586a4759fe57c1c3fc1850750cb785f335b9b235346a1d96ebfcfb558847fc1a3b319718f2736178a66a61a0c184c86d48b21c1e0df26b
   languageName: node
   linkType: hard
 

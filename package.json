@@ -17,11 +17,11 @@
     "version": "yarn install && git stage yarn.lock"
   },
   "devDependencies": {
-    "@monorepo-app-tony/eslint-config": "workspace:^",
     "@types/node": "^20.8.10",
     "@types/react": "^18.2.34",
     "concurrently": "^8.2.2",
     "eslint": "^8.53.0",
+    "eslint-config-tonyfromundefined": "^0.3.0",
     "eslint-define-config": "^1.24.1",
     "lerna": "4.0.0",
     "react": "^18.2.0",

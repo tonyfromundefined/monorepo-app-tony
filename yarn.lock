@@ -2572,7 +2572,7 @@ __metadata:
     "@types/react": "npm:^18.2.36"
     concurrently: "npm:^8.2.2"
     eslint: "npm:^8.53.0"
-    eslint-config-tonyfromundefined: "npm:^0.4.0"
+    eslint-config-tonyfromundefined: "npm:^0.5.0"
     eslint-define-config: "npm:^1.24.1"
     lerna: "npm:4.0.0"
     react: "npm:^18.2.0"
@@ -5072,9 +5072,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-tonyfromundefined@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "eslint-config-tonyfromundefined@npm:0.4.0"
+"eslint-config-tonyfromundefined@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "eslint-config-tonyfromundefined@npm:0.5.0"
   dependencies:
     "@types/react": "npm:^18.2.34"
     "@typescript-eslint/eslint-plugin": "npm:^6.9.1"
@@ -5091,7 +5091,7 @@ __metadata:
     prettier: "npm:^3.0.3"
     react: "npm:^18.2.0"
     typescript: "npm:^5.2.2"
-  checksum: 34dd53ceabaaffbd219d493ca4d491d666c72c1a9b518a61feedb343d0bfade20f7dfb4d03f187854c397e43dd700ca1960137e6081721ee08c05f3f6ff3ff12
+  checksum: d5078f5d6839a3eeb9c958fd821b2f34920a3db43941f9fb92e1d72322166aefef588b53a0bf22d858ad91de29c88b3beb43571f90fc15fbccf60136ad24b52b
   languageName: node
   linkType: hard
 
